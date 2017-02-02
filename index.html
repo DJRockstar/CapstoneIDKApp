@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>I Don't Know</title>
+		<meta charset="utf-8">
+		<meta name="description" content="This is an application suitable for the customers to search for a place (eg: Restaurants,Coffee shops, Entertainment) when they are confused and don't know where they should go.">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	  	<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+	<div id="map">
+		<!-- Height and Width can be assigned to make the map visible -->
+	</div>
+	<h1 class="heading">I don't know?</h1>
+	<div class="container">	
+		<div class="row">
+			<div class="col-md-12">
+				<form action="#" class="js-input-form">
+				 <input type="text" name="search" class="searchPlace" placeholder="Search Places.."/>
+				 </form>
+			</div><!-- COL-SM-6 closed -->
+			<div class="col-md-12">
+			<p class="or">OR</p><span>  Choose from dropdown below!</span>
+		  	<form action="#" class="js-search-form"></span>
+			    <label for="query"></label>
+			    <select name="category" class="js-query">
+				   	<option value="Brunch" class="Brunch">Breakfast and Brunch</option>
+				    <option value="coffee" class="coffee">Coffee & Tea</option>
+				    <option value="rest-o-Bar" class="rest-o-Bar">Restaurants and Bar</option>
+				    <option value="bowling" class="bowling">Entertainment</option>
+				    <option value="shopping" class="shopping">Shopping</option>
+			    </select> 
+			    <br>
+			     <select name="rating" class="js-rating">
+				    <option value=2 class="rating2">Rating > 2</option>
+				    <option value=3 class="rating3" selected>Rating > 3</option>
+				    <option value=4 class="rating4">Rating > 4</option>
+			    </select> 
+		    <button type="submit">IDK!</button>
+		  	</form> 
+		  </div><!-- COL-SM-4 closed -->
+		 </div><!--ROW Div Closed-->
+	</div>	<!--CONTAINER DIV CLOSED-->
+	<div class="container idk-image">
+				<img src="images/idk.png" class="hidden-md col-md-6 idk-emo img-rounded">
+			</div>
+	<div class="modal"><!-- Place at bottom of page -->
+	 	<p class="loading-text">Loading..something awesome</p>
+	</div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-i0LTKM-koQB-TelIVPiNH9vwcmc5tg0&libraries=places"></script>
+</body>
+</html>
