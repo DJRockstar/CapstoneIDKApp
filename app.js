@@ -31,7 +31,7 @@
               query: $('.searchPlace').val(),
               location: usersLocation,
               radius: '500',
-              openNow: true
+              openNow: true,
             };
 
             service = new google.maps.places.PlacesService(map);
