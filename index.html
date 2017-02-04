@@ -13,6 +13,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	  	<script type="text/javascript" src="app.js"></script>
 	</head>
+	<script type="text/javascript">
+		$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+	</script>
 	<body>
 	<div id="map">
 		<!-- Height and Width can be assigned to make the map visible -->
@@ -31,7 +37,8 @@
 			    <label for="query"></label>
 			    <select name="category" class="js-query">
 				   	<option value="Brunch" class="Brunch">Breakfast and Brunch</option>
-				    <option value="coffee" class="coffee">Coffee & Tea</option>
+				    <option value="coffee" class="coffee">Cafe's</option>
+				    <option value="juice" class="juice">Juicery</option>
 				    <option value="rest-o-Bar" class="rest-o-Bar">Restaurants and Bar</option>
 				    <option value="bowling" class="bowling">Entertainment</option>
 				    <option value="shopping" class="shopping">Shopping</option>
@@ -50,9 +57,6 @@
 	<div class="container idk-image">
 				<img src="images/idk.png" class="hidden-md col-md-6 idk-emo img-rounded">
 			</div>
-	<div class="modal"><!-- Place at bottom of page -->
-	 	<p class="loading-text">Loading..something awesome</p>
-	</div>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-i0LTKM-koQB-TelIVPiNH9vwcmc5tg0&libraries=places"></script>
 </body>
 </html>
