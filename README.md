@@ -25,7 +25,7 @@ If you want quick recommendation without having to enter XYZ FILTERS use IDK. If
 While using SEARCH bar: The places that are currently OPEN or their RATING>4 will be reflected as a result, so the user can get a broader view of what’s out there.
 
 #Live Site
-You can access IDK app here - IDK App
+You can access IDK app here - https://djrockstar.github.io/CapstoneIDKApp/
 
 #Technical Aspects
 •	Currently this is an Static application that was build by using:
