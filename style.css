@@ -156,26 +156,14 @@ a:hover{
 
 @media only screen and (min-width: 900px){
 	@media only screen and (orientation:portrait){	
-		html{
-			background: url(images/fries.jpeg) #ff3823 no-repeat center center;
-			background-size: cover;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			height: 1400px;
-			overflow: hidden;
-		}
+		
 		div.idk-image{
-			display: none;
+			width: 50%;
 		}
 	}
 }
 @media only screen and (min-width: 760px){
-	body{
-		background: url(images/fries.jpeg) #ff3823 no-repeat center center fixed;
-		background-size: cover;
-	}
 	div.idk-image{
-		display: none;
+		width: 50%;
 	}
 }
